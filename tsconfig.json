@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "module": "node16",
+    "target": "es2024",
+    "declaration": true,
+    "types": ["node"],
+    "strict": true
+
+  },
+  "exclude": [
+    "./tests",
+    "./node_modules",
+    "./dist"
+  ]
+}
